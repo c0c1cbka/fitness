@@ -1,3 +1,5 @@
+@import url('./fonts.css');
+
 body{
     font-family: 'open_sans', Helvetica, sans-serif;
     font-weight: normal;
@@ -5,5 +7,62 @@ body{
     line-height: 1.42;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    margin: 0px;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background: #1a1b1c;
+    height: 75px;
+    color: #ffffff;
+    
+} 
+
+.container{
+    width: 1060px;
+    margin: 0 auto;
+}
+
+.logo{
+    display: inline-block;
+    padding: 25px 0px;
+}
+
+.logo__text{
+    text-transform: uppercase;   
+    font-family: 'gora_free';
+    font-size: 18px;
+    color: #e1942a;
+    letter-spacing: 0.2em;
+}
+
+
+.sidebar{
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.nav{
+    display: inline-block;
+}
+
+.nav__item{
+
+}
+
+.company-info{
+    display: inline-block;
+}
