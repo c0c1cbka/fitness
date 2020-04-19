@@ -29,6 +29,7 @@ header{
     height: 75px;
     color: #ffffff;
     
+    font-weight: bold;
 } 
 
 .container{
@@ -58,11 +59,50 @@ header{
 .nav{
     display: inline-block;
 }
+.nav__item-text{
+    font-size: 12px;
+    color: #ffffff;
+    text-transform: uppercase;  
+}
 
+.nav__item-text--icon-main:before{
+    content: url(../image/icons/sidebar/main_icon.png);
+    width: 20px;
+    height: 18px;
+}
+
+.nav__item-text--icon-feed:before{
+    content: url(../image/icons/sidebar/feed_icon.png);
+    width: 20px;
+    height: 18px;
+}
+
+.nav__item-text--icon-service:before{
+    content: url(../image/icons/sidebar/service_icon.png);
+    width: 20px;
+    height: 18px;
+}
+
+.nav__item-text--active{
+    color:#e1942a;
+}
+
+/* не прижемается к топу */
 .nav__item{
-
+    vertical-align: top;
 }
 
 .company-info{
     display: inline-block;
+    text-align: right;
+}
+
+.company-info__tel-number{
+    font-size: 21px;
+}
+
+.company-info__schedule{
+    color: #e1942a;
+    font-size: 14px;
+    text-decoration:underline;
 }
